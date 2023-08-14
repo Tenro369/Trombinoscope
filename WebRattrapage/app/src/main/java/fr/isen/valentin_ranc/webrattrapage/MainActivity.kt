@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             Response.Listener<JSONObject> { response ->
                 Log.e("API_SUCCESS", "SUCCESS")
                 val results: JSONArray = response.getJSONArray("results")
-                Log.e("API_RESPONSE", results.toString()) // Ajoutez cette ligne pour déboguer
+                Log.e("API_RESPONSE", results.toString())
                 val gson = Gson()
 
                 for (i in 0 until results.length()) {

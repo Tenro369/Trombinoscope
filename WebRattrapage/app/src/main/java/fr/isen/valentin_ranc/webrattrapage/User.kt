@@ -1,7 +1,5 @@
 package fr.isen.valentin_ranc.webrattrapage
 
-import android.os.Parcel
-import android.os.Parcelable
 import java.io.Serializable
 
 data class User(
